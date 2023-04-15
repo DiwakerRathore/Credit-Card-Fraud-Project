@@ -1,6 +1,9 @@
 import sys
 import logging
+<<<<<<< HEAD
 from src.logger import logging
+=======
+>>>>>>> bd4dfd16ce946c6d3ee04e5942d1842e3ad87242
 
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb=error_detail.exc_info()
@@ -25,5 +28,9 @@ if __name__=="__main__":
         a=1/0
     except Exception as e:
         logging.info("divide by zero")
+<<<<<<< HEAD
         raise CustomException(e,sys)
     
+=======
+        raise CustomException(e,sys)
+>>>>>>> bd4dfd16ce946c6d3ee04e5942d1842e3ad87242
