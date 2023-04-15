@@ -1,12 +1,8 @@
 pandas
 numpy
 seaborn
-<<<<<<< HEAD
 matplotlib
 datetime
 sklearn
 imblearn
 #-e .
-=======
--e .
->>>>>>> bd4dfd16ce946c6d3ee04e5942d1842e3ad87242
